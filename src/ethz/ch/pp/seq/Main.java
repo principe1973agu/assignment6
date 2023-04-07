@@ -6,8 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 	    RandomGenerator dg = new RandomGenerator();
-	  //  int[] input = dg.randomArray(1024*1024*5);
-		int[] input=new int[]{1,1,1,8,9,12,94,89,23,50,50,50};
+	    int[] input = dg.randomArray(1024*1024*5);
 	    
 		System.out.println("warm-up cache for more precise measurements");
 		taskBaseline(input);
